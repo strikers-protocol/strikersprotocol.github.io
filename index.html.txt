@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrikersProtocol | Harshvardhansinh Zala</title>
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-color: #ffffff;
+            --accent-color: #00ffcc; /* Cyber-style green/blue */
+            --secondary-text: #a0a0a0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+            color: var(--accent-color);
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--secondary-text);
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .section {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent-color);
+            transition: 0.3s;
+        }
+        .section:hover {
+            transform: scale(1.02);
+            background: #222;
+        }
+        .link-btn {
+            display: block;
+            background: transparent;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 12px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .link-btn:hover {
+            background: var(--accent-color);
+            color: var(--bg-color);
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: var(--secondary-text);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>StrikersProtocol</h1>
+        <div class="subtitle">The Innovation Lab of Harshvardhansinh Zala</div>
+
+        <div class="section">
+            <h3>📖 My Published Work</h3>
+            <p>Check out my latest book, now available on Amazon.</p>
+            <a href="YOUR_AMAZON_LINK_HERE" class="link-btn">View on Amazon</a>
+        </div>
+
+        <div class="section">
+            <h3>💻 Technical Projects</h3>
+            <p>Explore the protocols and code behind the tech.</p>
+            <a href="https://github.com/StrikersProtocol" class="link-btn">GitHub Profile</a>
+        </div>
+
+        <div class="section">
+            <h3>📱 Connect With Me</h3>
+            <a href="https://instagram.com/YOUR_INSTA_HANDLE" class="link-btn">Instagram</a>
+            <a href="https://x.com/YOUR_X_HANDLE" class="link-btn">X (Twitter)</a>
+        </div>
+
+        <footer>
+            &copy; 2026 StrikersProtocol. Built & Owned by Harshvardhansinh Zala.
+        </footer>
+    </div>
+
+</body>
+</html>
